@@ -19,10 +19,12 @@ public class MainClass {
 		myCar2.stop();
 		myCar2.info();
 		
-		Bicycle myBicycle = new Bicycle("red", 100);
-		myBicycle.info();
+		Bicycle myBicycle1 = new Bicycle("red", 100);
+		myBicycle1.info();
 		
-		myBicycle.color = "yellow";
-		myBicycle.info();
+		Bicycle myBicycle2 = new Bicycle("red", 100, "basket");
+		myBicycle2.info();
+		
+		
 	}
 }
