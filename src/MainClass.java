@@ -18,5 +18,11 @@ public class MainClass {
 		myCar2.run();
 		myCar2.stop();
 		myCar2.info();
+		
+		Bicycle myBicycle = new Bicycle("red", 100);
+		myBicycle.info();
+		
+		myBicycle.color = "yellow";
+		myBicycle.info();
 	}
 }

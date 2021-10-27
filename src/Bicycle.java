@@ -4,7 +4,13 @@ public class Bicycle {
 	public int price;
 	
 	public Bicycle() {
-		System.out.println("Bicycle constructor");
+		System.out.println("Bicycle constructor - 1");
+	}
+	
+	public Bicycle(String c, int p) {
+		System.out.println("Bicycle constructor - 2");
+		color = c;
+		price = p;
 	}
 	
 	public void info() {
